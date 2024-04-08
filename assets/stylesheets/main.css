@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ol, ul {
   list-style: none;
@@ -174,6 +177,14 @@ a {
 
 p a {
   border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
 }
 
 /*
